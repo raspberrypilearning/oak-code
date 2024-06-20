@@ -1,1 +1,2 @@
-# This is the main.py file
+user = "Claude"
+print("Hello", user)

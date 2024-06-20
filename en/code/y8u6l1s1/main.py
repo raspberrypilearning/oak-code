@@ -1,1 +1,1 @@
-# This is the main.py file
+print("Hello world!")

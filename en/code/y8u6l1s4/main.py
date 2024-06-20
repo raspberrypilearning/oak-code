@@ -1,1 +1,3 @@
-# This is the main.py file
+print("What’s your name?")
+user = input()
+print("Hello", user)
