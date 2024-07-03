@@ -1,4 +1,4 @@
-from tcc.space import people
+from space import people
 
 print("How many people do you think are in space right now?")
 guess = int(input())

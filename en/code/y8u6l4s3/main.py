@@ -1,4 +1,4 @@
-from tcc.weather import description
+from weather import description
 
 print("Where do you live?")
 location = input()
