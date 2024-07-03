@@ -1,1 +1,6 @@
-# This is the main.py file
+from tcc.weather import temperature, wind, clouds
+
+print("Where do you live?")
+location = input()
+
+temp = temperature(location)

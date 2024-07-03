@@ -1,1 +1,7 @@
-# This is the main.py file
+count = 10
+
+while count >= 1:
+  print(count)
+  count = count-1 
+
+print("Lift off!")

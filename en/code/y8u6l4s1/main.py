@@ -1,1 +1,3 @@
-# This is the main.py file
+from tcc.space import people
+number = people()
+print("There are", number, "people in space now.")

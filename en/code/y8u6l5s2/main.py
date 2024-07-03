@@ -1,1 +1,10 @@
-# This is the main.py file
+count = 3
+
+print(count)
+count = count-1 
+
+print(count)
+count = count-1 
+
+print(count)
+count = count-1
