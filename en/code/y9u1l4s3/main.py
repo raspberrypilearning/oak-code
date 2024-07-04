@@ -1,1 +1,1 @@
-# This is the main.py file
+from data import dictionary

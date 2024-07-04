@@ -1,1 +1,2 @@
-# This is the main.py file
+from textfile import words
+wordlist = words('gadsby.txt')
