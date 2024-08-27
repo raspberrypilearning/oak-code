@@ -1,14 +1,6 @@
-lucky = 13
+print("Where do you live?")
+location = input()
+print("Weather in", location, "now?")
+weather = input()
 
-guessed = False
-while guessed == False:
-
-  print("Can you guess my lucky number?")
-  guess = int(input())
-
-  if guess != lucky:
-    print("Sorry, it's not", guess)
-  else:
-    print("Amazing, you guessed it")
-
-print("Nice playing with you")
+### Add code below
