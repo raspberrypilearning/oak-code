@@ -6,4 +6,4 @@ while treasure_found == False:
   distance_traveled = distance_traveled + 10
   if distance_traveled >= 250:
     treasure_found = True
-    print("Treasure found after", distance_traveled, "steps!")
+print("Treasure found after", distance_traveled, "steps!")
