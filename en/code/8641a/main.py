@@ -10,5 +10,5 @@ elif weather == "rainy":
 elif weather == "snowy":
   advice = "Gloves and earmuffs"
 else:
-  advice = "No particular advice"
+  advice = "Enjoy the day!"
 print(advice)
