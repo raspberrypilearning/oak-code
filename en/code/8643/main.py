@@ -10,6 +10,6 @@ elif age < 12:
         ticket_price = 25
     else: 
         ticket_price = 20
-### Add code below to commplete the task
+# Add code below to commplete the task
 
 print("Ticket price: £", ticket_price)

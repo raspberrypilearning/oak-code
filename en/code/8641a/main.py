@@ -1,7 +1,7 @@
 print("What is the weather like now?")
 weather = input()
 
-### Add code below
+# Add code below
 
 if weather == "cloudy":
   advice = "No sunglasses"
