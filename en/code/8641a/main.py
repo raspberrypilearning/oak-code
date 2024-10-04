@@ -1,6 +1,4 @@
-print("Where do you live?")
-location = input()
-print("Weather in", location, "now?")
+print("What is the weather like now?")
 weather = input()
 
 ### Add code below
