@@ -1,10 +1,6 @@
-from random import randint 
-rolls = 0
-sixes = 0
-while sixes < 10: 
-  dice = randint(1,6)
-  print(dice)
-  if dice == 6:
-    sixes = sixes + 1
-  rolls = rolls + 1 
-print("Ten sixes in", rolls, "dice rolls")
+print("What is the passcode?")
+passcode = input()
+while passcode != "1234":
+	print("Try again")
+passcode = input()
+print("Phone unlocked!")
