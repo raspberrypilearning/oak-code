@@ -1,11 +1,18 @@
-from random import randint 
-num1 = randint(2,12)
-num2 = randint(2,12)
-print(num1, "times", num2, "=")
-answer = int(input())
-product = num1 * num2
-if answer == product:
-  print("That is correct")
-else:
-  print("I am sorry")
-  print(num1, "times", num2, "is", product)
+correct_passcode = "1234"
+max_attempts = 3
+attempts = 0
+
+while attempts < max_attempts:
+    passcode = input("Enter passcode: ")
+    attempts += 1
+
+    if passcode == correct_passcode:
+        print("Phone unlocked!")
+        attempts = max_attempts  
+    elif attempts == 1:
+        print("Incorrect passcode. Try again. Hint: The passcode has 4 digits.")
+    else:
+        print("Incorrect passcode. Try again.")
+
+if attempts == max_attempts and passcode != correct_passcode:
+    print("Too many attempts. Phone locked.")
