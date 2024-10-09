@@ -1,10 +1,10 @@
-distance_traveled = 0
+distance_travelled = 0
 treasure_found = False
 
 while treasure_found == False:
-    print("Keep going", distance_traveled, "steps travelled so far")
+    print("Keep going", distance_travelled, "steps travelled so far")
     print("How many steps do you want to go now?")
     steps = int(input())
-    distance_traveled = distance_traveled + steps
+    distance_travelled = distance_travelled + steps
 # Code to check for the treasure goes here
-print("Treasure found after", distance_traveled, "steps!")
+print("Treasure found after", distance_travelled, "steps!")
