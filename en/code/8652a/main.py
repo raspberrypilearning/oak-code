@@ -3,9 +3,9 @@ max_attempts = 3
 attempts = 0
 
 while attempts < max_attempts:
-    passcode = input("Enter passcode: ")
-    attempts += 1
-
+    print("Enter passcode: ")
+    passcode = input()
+    attempts = attempts +1
     if passcode == correct_passcode:
         print("Phone unlocked!")
         attempts = max_attempts  

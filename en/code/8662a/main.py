@@ -7,7 +7,8 @@ print("a: Chocolate bar", chocolate_price, "coins")
 print("b: Crisps", crisps_price, "coins")
 print("c: Drink", drink_price, "coins")
 
-choice = input("Enter your choice: ")
+print("Enter your choice: ")
+choice = input()
 if choice == 'a':
     print("The price of a chocolate bar is",chocolate_price, "coins.")
 elif choice == 'b':

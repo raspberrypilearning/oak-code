@@ -1,11 +1,11 @@
-age = int(input("Please enter your age: "))
-
+print("Please enter your age: ")
+age = int(input())
 ticket_price = 0
 if age < 3:
     print("You get in for free!") 
 elif age < 12:  
-    is_peak_season = input("Is it peak season? (yes/no): ")
-
+    print("Is it peak season? (yes/no): ")
+    is_peak_season = input()
     if is_peak_season == 'yes':
         ticket_price = 25
     else: 

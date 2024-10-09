@@ -10,7 +10,8 @@ print("b: Crisps", crisps_price, "coins")
 print("c: Drink", drink_price, "coins")
 
 while more_items == True:
-    choice = input("Enter your choice: ")
+    print("Enter your choice: ")
+    choice = input()
     if choice == "a":
         print("The price of a Chocolate bar is",chocolate_price, "coins.")
         total_price = total_price + chocolate_price
@@ -22,7 +23,8 @@ while more_items == True:
         total_price = total_price + drink_price
     else:
         print("Invalid choice!")
-    more = input("Do you want more items? (y/n) ")
+    print("Do you want more items? (y/n) ")
+    more = input()
     if more == "y":
         more_items = True
     else:
