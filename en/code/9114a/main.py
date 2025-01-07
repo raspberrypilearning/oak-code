@@ -10,4 +10,4 @@ elif month <= 8:
   season = 2
 else:
   season = 3
-print("It is", seasons[season])
+print(f"It is {seasons[season]}")
