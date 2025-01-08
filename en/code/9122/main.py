@@ -6,18 +6,22 @@ defender = dicerolls(2)
 print("Players’ rolls")
 print("Attacker:", attacker)
 print("Defender:", defender)
-attacker.sort(reverse=True)
-defender.sort(reverse=True)
+# Add line here to sort attacker list
+# Add line here to sort defender list
 print("Sorted")
 print("Attacker:", attacker)
 print("Defender:", defender)
-if attacker[0] > defender[0]:
-  defender_points = defender_points - 1
-else:
-  attacker_points = attacker_points - 1
-if attacker[1] > defender[1]:
-  defender_points = defender_points - 1
-else:
-  attacker_points = attacker_points - 1
+# Add if statement to compare higest dice roll
+
+
+
+
+
+# Add if statement to compare second highest dice roll 
+
+
+
+
+
 print("Attacker points:", attacker_points)
 print("Defender points:", defender_points)
