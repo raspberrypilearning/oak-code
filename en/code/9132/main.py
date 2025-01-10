@@ -7,14 +7,14 @@ cities = ["Athens","Berlin", "Brussels","Copenhagen",
 city = choice(cities)
 done = False
 
-while not done:
-  print("Guess the capital:")
-  guess = input()
-  if guess == city:
-    print("You've got it!")
-    done = True
-  elif guess == "":
-    print("It was", city)
-    done = True
-  else:
-    print("Try again")
+
+print("Guess the capital:")
+guess = input()
+if guess == city:
+  print("You've got it!")
+  done = True
+elif guess == "":
+  print(f"It was {city}")
+  done = True
+else:
+  print("Try again")
