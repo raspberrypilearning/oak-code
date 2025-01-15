@@ -5,4 +5,4 @@ months = ["January", "February",
           "December"]
 print("What month is it? (1-12)")
 month = int(input())
-print("It is", months[ ])  # complete this line
+print(f"It is {months[ ]}")  # complete this line
