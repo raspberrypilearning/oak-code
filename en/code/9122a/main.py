@@ -13,15 +13,11 @@ print(f"Attacker: {attacker}")
 print(f"Defender: {defender}")
 if attacker[0] > defender[0]:
     defender_points = defender_points - 1
-    attacker_points = attacker_points + 1
 else:
     attacker_points = attacker_points - 1
-    defender_points = defender_points + 1
 if attacker[1] > defender[1]:
     defender_points = defender_points - 1
-    attacker_points = attacker_points + 1
 else:
     attacker_points = attacker_points - 1
-    defender_points = defender_points + 1
 print(f"Attacker points: {attacker_points}")
 print(f"Defender points: {defender_points}")
