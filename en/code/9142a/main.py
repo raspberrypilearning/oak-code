@@ -8,5 +8,5 @@ for value in rainfall_data:
     elif value < min_rainfall:
         min_rainfall = value
 
-print (f"Maximum rainfall in mm: {max_rainfall}" )
-print (f"Minimum rainfall in mm: {min_rainfall}" )
+print(f"Maximum rainfall in mm: {max_rainfall}" )
+print(f"Minimum rainfall in mm: {min_rainfall}" )
