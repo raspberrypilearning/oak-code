@@ -5,5 +5,5 @@ for value in rainfall_data:
     if value > 65:
         count = count + 1
 
-print (f"Number of times rainfall exceeds 65mm: {count}")
+print(f"Number of times rainfall exceeds 65mm: {count}")
 
