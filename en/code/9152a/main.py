@@ -14,5 +14,5 @@ while guess != True:
         print("Try again")
         if card_picked < picked:
             print("The card is higher")
-        elif card_picked > picked:
+        else:
             print("The card is lower")
