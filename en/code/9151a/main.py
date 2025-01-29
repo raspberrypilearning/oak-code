@@ -5,7 +5,7 @@ test_scores = [18,32,40,28,12,4,16,15,25,41,
 highest_score = max(test_scores)
 print(f"The highest score was {highest_score}")
 lowest_score = min(test_scores)
-print(f"The highest score was {lowest_score}")
+print(f"The lowest score was {lowest_score}")
 total = 0
 for score in test_scores:
     total = total + score
