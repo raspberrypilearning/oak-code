@@ -12,3 +12,4 @@ for item in planted:
     total = planted[position] -  cut[position]
     total = round(total, 2)
     print(f"The net forest gain/loss for year {position+1} was {total}")
+    
