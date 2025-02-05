@@ -1,22 +1,22 @@
 def num_dogs():
-
-
-  return total_dogs
+   
+   
+   return total_dogs
 
 def num_days():
-
-
-  return total_days
+   
+   
+   return total_days
 
 def num_walks(total_dogs, total_days):
-
-
-  return total_walks
+   
+   
+   return total_walks
 
 def total_charge(total_walks):
-
-
-  return total_cost
+   
+   
+   return total_cost
 
 def invoice(total_dogs, total_days, total_walks, total_cost):
 
