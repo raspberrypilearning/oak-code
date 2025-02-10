@@ -9,7 +9,7 @@ cut.append(2.89)
 
 for item in planted:
     position = planted.index(item)
-    total = planted[position] -  cut[position]
+    total = planted[position] - cut[position]
     total = round(total, 2)
-    print(f"The net forest gain/loss for year {position+1} was {total}")
+    print(f"The net forest gain/loss for year {position + 1} was {total}")
     
