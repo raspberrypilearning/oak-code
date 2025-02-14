@@ -5,21 +5,21 @@ more_items = True
 total_price = 0
 
 print("Choose an item:")
-print("a: Chocolate bar", chocolate_price, "coins")
-print("b: Crisps", crisps_price, "coins")
-print("c: Drink", drink_price, "coins")
+print(f"a: Chocolate bar {chocolate_price} coins")
+print(f"b: Crisps {crisps_price} coins")
+print(f"c: Drink {drink_price} coins")
 
 while more_items == True:
     print("Enter your choice: ")
     choice = input()
     if choice == "a":
-        print("The price of a Chocolate bar is",chocolate_price, "coins.")
+        print(f"The price of a Chocolate bar is {chocolate_price} coins.")
         total_price = total_price + chocolate_price
     elif choice == "b":
-        print("The price of Crisps is", crisps_price, "coins.")
+        print(f"The price of Crisps is {crisps_price} coins.")
         total_price = total_price + crisps_price
     elif choice == "c":
-        print("The price of a Drink is", drink_price, "coins.")
+        print(f"The price of a Drink is {drink_price} coins.")
         total_price = total_price + drink_price
     else:
         print("Invalid choice!")
@@ -29,5 +29,5 @@ while more_items == True:
         more_items = True
     else:
         more_items = False
-print("The total price is: ", total_price)
+print(f"The total price is: {total_price}")
 print("Thank you for using the vending machine")

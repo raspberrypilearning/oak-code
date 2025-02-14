@@ -12,4 +12,4 @@ elif age < 12:
         ticket_price = 20
 # Add code below to complete the task
 
-print("Ticket price: £", ticket_price)
+print(f"Ticket price: £ {ticket_price}")
