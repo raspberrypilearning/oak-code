@@ -6,7 +6,7 @@ while True:
   answer = int(input())
   product = num1 * num2
   if answer == product:
-  	print("That is correct")
+    print("That is correct")
   else:
     print("I am sorry")
     print(f"{num1} times {num2} is {product}")
