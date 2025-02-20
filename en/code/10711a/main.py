@@ -20,7 +20,7 @@ def invoice(total_dogs, total_days, total_walks, total_cost):
     print(f"Number of dogs walked: {total_dogs}")
     print(f"Number of days walked: {total_days}")
     print(f"Total number of walks: {total_walks}")
-    print(f"Total cost of invoice {total_cost}")
+    print(f"Total cost of invoice: £ {total_cost}")
 
 total_dogs = num_dogs()
 total_days = num_days()
