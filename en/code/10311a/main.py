@@ -14,20 +14,4 @@ elif feeling == "BAD":
 else:
   print("Sorry, I don't understand how you feel")
 
-print("What is your favourite colour?")
-colour = input().lower()
-if colour == "blue":
-  print("Blue is my favourite too")
-else:
-  print("That is not my favourite colour")
-
-print("What is the weather like where you are today?")
-weather = input().lower()
-if weather == "rainy":
-  print("Wear a coat")
-elif weather == "sunny":
-  print("wear sun cream")
-else:
-  print("I have no advice")
-
 print("Have a good day! Bye!")
