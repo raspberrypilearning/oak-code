@@ -26,7 +26,7 @@ weather = input().lower()
 if weather == "rainy":
   print("Wear a coat")
 elif weather == "sunny":
-  print("wear sun cream")
+  print("Wear sun cream")
 else:
   print("I have no advice")
 
