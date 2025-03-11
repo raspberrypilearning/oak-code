@@ -1,0 +1,11 @@
+print("Welcome to the sandwich shop")
+print("-----------------------------")
+print("Sandwich prices:")
+print("-----------------------------------------------------------------")
+print("Sandwiches                           Wraps")
+print("-----------------------------------------------------------------")
+print("Sandwich (meat filling)    £2.80     Wrap (meat filling)    £3.00")
+print("Sandwich (veg filling)     £2.50     Wrap (veg filling)     £2.70")
+print("With crisps                  +30p    With crisps             +30p")
+print("-----------------------------------------------------------------")
+total = 0
