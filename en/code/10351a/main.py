@@ -13,7 +13,7 @@ if answer == "n":
 else:
    print("Is the animal a mammal? Y/N")
    answer = input().lower()
-   if answer == "y":
+   if answer == "n":
        print("It must be an fish!")
    else:
        print("It must be a Whale!")
