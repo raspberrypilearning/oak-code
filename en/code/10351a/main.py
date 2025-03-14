@@ -17,4 +17,3 @@ else:
        print("It must be an fish!")
    else:
        print("It must be a Whale!")
-print("test")
