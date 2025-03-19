@@ -1,15 +1,23 @@
 body {
-    background-color: powderblue;
-  }
-  h1 {
-    color: mediumseagreen;
-  }
-  h2 {
-    color: lightgreen;
-  }
-  p {
-    color: khaki;
-  }
-  ul {
-    color: darkgoldenrod;
-  }
+  text-align: center;
+  background-color: beige;
+  color: green;
+ }
+
+header {
+    background-color: mediumseagreen;
+    color: white;
+    padding: 10px;
+   }
+
+h1 { }
+
+img {
+width: 80%;
+padding:20px;
+}
+
+p {
+font-size: 18px;
+margin: 20px;
+}
