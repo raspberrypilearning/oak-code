@@ -1,0 +1,16 @@
+/* Change the background colour of the webpage */
+body {
+  background-color: grey; /* Change this to any colour you prefer */
+}
+
+/* Change the font size and colour of the main heading */
+h1 {
+  font-size: 18px; /* Try making this bigger or smaller */
+  color: darkorange; /* Change this to any colour you prefer */
+}
+
+/* Change the font size and colour of paragraph text */
+p {
+  font-size: 24px; /* Increase or decrease the size */
+  color: midnightblue; /* You can change this colour */
+}
