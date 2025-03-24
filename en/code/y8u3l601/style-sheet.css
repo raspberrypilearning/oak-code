@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+  background-color: darkcyan;
+  color: lightblue;
+ }
+
+header {
+    color: white;
+    padding: 10px;
+   }
+
+h1 { }
+
+img {
+width: 80%;
+padding:20px;
+}
+
+p {
+font-size: 18px;
+margin: 20px;
+}
