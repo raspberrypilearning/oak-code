@@ -1,19 +1,28 @@
 body {
   font-family:courier;
   text-align: center;
-  background-color: darkcyan;
-  color: lightblue;
+  background-color: lightblue;
+  color: midnightblue;
  }
 
 header {
     color: white;
-    padding: 10px;
    }
 
-h1 { }
+h1 { 
+  font-size: 72px;
+   }
+
+h2 { 
+  font-size: 36px;
+   }
+
+h3 { 
+  font-size: 26px;
+   }
 
 img {
-width: 80%;
+width: 10%;
 padding:20px;
 }
 
