@@ -1,0 +1,32 @@
+body {
+  font-family:courier;
+  text-align: center;
+  background-color: lightblue;
+  color: midnightblue;
+ }
+
+header {
+    color: white;
+   }
+
+h1 { 
+  font-size: 72px;
+   }
+
+h2 { 
+  font-size: 36px;
+   }
+
+h3 { 
+  font-size: 26px;
+   }
+
+img {
+width: 10%;
+padding:20px;
+}
+
+p {
+font-size: 18px;
+margin: 20px;
+}
