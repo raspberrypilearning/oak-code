@@ -2,13 +2,17 @@ body {
   font-family:courier;
   background-color: lightblue;
   color: midnightblue; }
-header {
-  color: white;
-  font-size: 72px;
-  text-align: center; }
 h1 { 
   font-size: 36px;
-  text-align: center; }
+  color:white;
+  text-align:center;
+   }
+h2 { 
+  font-size: 24px;
+  color:midnightblue;
+  text-align:left;
+  padding:20px;
+   }
 p {
   font-size: 18px;
   margin: 20px; }
