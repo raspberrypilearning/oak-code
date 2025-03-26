@@ -1,32 +1,18 @@
 body {
   font-family:courier;
-  text-align: center;
   background-color: lightblue;
-  color: midnightblue;
- }
-
+  color: midnightblue; }
 header {
-    color: white;
-   }
-
-h1 { 
+  color: white;
   font-size: 72px;
-   }
-
-h2 { 
+  text-align: center; }
+h1 { 
   font-size: 36px;
-   }
-
-h3 { 
-  font-size: 26px;
-   }
-
-img {
-width: 10%;
-padding:20px;
-}
-
+  text-align: center; }
 p {
-font-size: 18px;
-margin: 20px;
-}
+  font-size: 18px;
+  margin: 20px; }
+img {
+  width: 10%;
+  padding:20px; }
+
