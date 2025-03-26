@@ -1,0 +1,22 @@
+body {
+  font-family:courier;
+  background-color: lightblue;
+  color: midnightblue; }
+h1 { 
+  font-size: 36px;
+  color:white;
+  text-align:center;
+   }
+h2 { 
+  font-size: 24px;
+  color:midnightblue;
+  text-align:left;
+  padding:20px;
+   }
+p {
+  font-size: 18px;
+  margin: 20px; }
+img {
+  width: 10%;
+  padding:20px; }
+
