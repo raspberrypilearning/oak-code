@@ -20,7 +20,7 @@ total = 0
 print("Would you like a sandwich or a wrap?: ")
 type = input()
 print("Which filling would you like (1-6)?: ")
-filling = input()
+filling = int(input())
 
 #selection statements for sandwich options
 if type == "sandwich":
