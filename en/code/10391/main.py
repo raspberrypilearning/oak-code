@@ -17,7 +17,7 @@ print("-----------------------------------------------------------------")
 
 #take in users choices
 total = 0
-print("Would you like a sandiwch or a wrap?: ")
+print("Would you like a sandwich or a wrap?: ")
 type = input()
 print("Which filling would you like (1-6)?: ")
 filling = input()
