@@ -58,5 +58,5 @@ if drink == "y":
 
 print(f"The total of your order is £{total}")
 
-if total > 5:
+if total > 4:
     print("You have earned a sandwich stamp!")
