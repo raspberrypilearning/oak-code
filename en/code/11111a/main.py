@@ -7,9 +7,9 @@ while add_players:
     print("Enter a password:")
     password = input()
     print("Enter a score")
-    score = input()
+    score = int(input())
     print("Enter highest score")
-    highest_score = input()
+    highest_score = int(input())
 
     player = {"username" : username,
               "password" : password,

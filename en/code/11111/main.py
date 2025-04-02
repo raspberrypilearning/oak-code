@@ -7,7 +7,7 @@ while add_players:
     print("Enter a password:")
     password = input()
     print("Enter a score")
-    score = input()
+    score = int(input())
 
     player = {"username" : username,
               "password" : password,
