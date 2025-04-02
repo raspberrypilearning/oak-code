@@ -39,8 +39,6 @@ elif type == "wrap":
         total = total + 2.7
     elif filling == 3 or filling == 4:
         total = total + 2.30
-    elif filling == 3 or filling == 4:
-        total = total + 2.30
     elif filling == 5 or filling == 6:
         total  = total + 3.10
     else:
