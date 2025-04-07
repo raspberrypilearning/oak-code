@@ -45,7 +45,7 @@ while correct_guesses < 8:
     if hidden_board[y1][x1] == hidden_board[y2][x2]:
         print("CORRECT! You found a match!")
         correct_guesses = correct_guesses + 1
-        user_board[y1][x1] = hidden_board[y2][x2]
+        user_board[y1][x1] = hidden_board[y1][x1]
         user_board[y2][x2] = hidden_board[y2][x2]
     else:
         print(" Not a match!")
