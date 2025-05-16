@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Eco-Friendly Choices</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Eco-Friendly Choices</h1>
+
+  <!-- Hover Effect Fact -->
+  <p id="ecoFact">Fact: Recycling one aluminium can saves enough energy to power a TV for 3 hours.</p>
+
+  <!-- Show/Hide Eco Tips -->
+  <button id="toggleTipsBtn">Show/Hide Eco Tips</button>
+  <div id="ecoTips" class="hidden">
+    <p>Use reusable bags, bottles, and containers instead of single-use plastics.</p>
+  </div>
+
+  <!-- Accordion Menu -->
+  <h2>Recycling Tips</h2>
+
+  <button class="accordionBtn" data-target="plasticTips">Plastic Recycling</button>
+  <div id="plasticTips" class="hidden">
+    <p>Plastic recycling helps reduce pollution and conserves resources. Always clean and dry your plastic before recycling to prevent contamination.</p>
+    <p>Commonly recycled plastics include bottles, containers, and packaging. Check your local council’s recycling guide to see which plastics are accepted.</p>
+    <p>Avoid recycling soft plastics like plastic bags through curbside bins — these often require special drop-off points.</p>
+  </div>
+  
+  <button class="accordionBtn" data-target="paperTips">Paper & Cardboard Recycling</button>
+  <div id="paperTips" class="hidden">
+    <p>Paper and cardboard are widely recycled materials. Make sure to flatten boxes and remove any non-paper packaging (e.g., plastic windows from envelopes).</p>
+    <p>Wet or dirty paper (like used tissues or greasy pizza boxes) should not be recycled as it can spoil the whole batch.</p>
+    <p>Reuse cardboard boxes for storage or crafts before recycling to reduce waste.</p>
+  </div>
+  
+  <button class="accordionBtn" data-target="electronicsTips">Electronics Recycling</button>
+  <div id="electronicsTips" class="hidden">
+    <p>Electronics contain valuable metals and hazardous materials. Never put them in regular bins.</p>
+    <p>Take old phones, laptops, and batteries to dedicated e-waste recycling centres or participating shops that collect them.</p>
+    <p>Before recycling, ensure you remove any personal data from devices.</p>
+  </div>
+
+
+  <!-- Simple Quiz -->
+  <h2>Eco Quiz</h2>
+  <p>Which is the best way to reduce plastic waste?</p>
+  <button class="quizBtn" data-answer="A">A) Buy bottled water daily</button><br>
+  <button class="quizBtn" data-answer="B">B) Use a reusable water bottle</button><br>
+  <button class="quizBtn" data-answer="C">C) Use plastic bags every shopping trip</button>
+
+  <p id="quizResult" class="result"></p>
+
+  <!-- Alert Pop-up -->
+  <h2>Before you go</h2>
+  <button id="ecoTipBtn">Get a Quick Eco Tip</button>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
