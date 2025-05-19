@@ -44,7 +44,7 @@ def add_boats(fleet_grid):
     boats = 0
     adding_boats = boats < 5
     while adding_boats: # add boats until there are 5
-        print("Enter battle boat coordinates e.g A1:")
+        print("Enter battle boat coordinates e.g. A1:")
         coordinates = input()
         coordinates = grid_location(coordinates)
         row = coordinates[0]
@@ -80,7 +80,7 @@ def play():
     # create the opponent fleet locations
 
     opponent = computer_fleet()
-    print(opponent) # not required for actual game!!!
+    print(opponent) # not required for actual game!
 
     target_grid = target_tracker()
 
@@ -206,7 +206,7 @@ def grid_location(coordinates): # calculates the 2D list location based on given
     return row_column
 
 
-def computer_hit(): # randomly picks a coordinate for the computer to fire at
+def computer_hit(): # randomly selects a coordinate for the computer to fire at
     columns = ["A", "B", "C", "D", "E", "F" ,"G" , "H"]
     rows = ["1", "2", "3", "4", "5", "6", "7", "8"]
     column = choice(columns)
@@ -214,7 +214,7 @@ def computer_hit(): # randomly picks a coordinate for the computer to fire at
     coordinate = column + row
     return coordinate
 
-def computer_fleet(): # randomly decides the location of the computer's fleet
+def computer_fleet(): # randomly selects the location for the computer's fleet
     fleet = []
     columns = ["A", "B", "C", "D", "E", "F" ,"G" , "H"]
     rows = ["1", "2", "3", "4", "5", "6", "7", "8"]
@@ -228,7 +228,7 @@ def computer_fleet(): # randomly decides the location of the computer's fleet
             boats += 1
     return fleet
 
-def target_tracker(): # tracks the hits and misses on the computers fleet
+def target_tracker(): # tracks the hits and misses on the computer's fleet
     target_grid = [["T", "A", "B", "C", "D", "E", "F", "G", "H"],
                    ["1", " ", " ", " ", " ", " ", " ", " ", " "],
                    ["2", " ", " ", " ", " ", " ", " ", " ", " "],
@@ -246,7 +246,7 @@ def resume():
 def instructions():
     print("~~~INSTRUCTIONS~~~")
     print("You and your opponent have a fleet of five boats")
-    print("The aim of the game is to sink all five of your opponents boats before they sink yours!")
+    print("The aim of the game is to sink all five of your opponent's boats before they sink yours!")
     print("Take it in turns to enter coordinates and try and hit a target!")
     print("Press enter to return to the menu")
     input()
