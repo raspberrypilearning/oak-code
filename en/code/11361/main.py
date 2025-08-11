@@ -18,7 +18,7 @@ game_names = []
 game_durations = []
 total_time = 0
 game_name = input("Enter game name: ")
-games_names.append(game_name)
+game_names.append(game_name)
 review_duration = input("Enter review duration in seconds: ")
 review_seconds = int(review_duration)
 game_durations.append(review_seconds)
