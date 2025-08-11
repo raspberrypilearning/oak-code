@@ -27,6 +27,11 @@ while total_time < stream_seconds:
 
 print("\nEnough games entered for the stream!\n")
 
+for i in range(len(game_names)):
+    name = game_names[i]
+    duration = game_durations[i]
+    print(f"{i + 1}. {name} - {duration} seconds")
+
 print("Stream summary:")
 stream_duration_minutes = total_time  // 60
 stream_duration_seconds = total_time % 60

@@ -53,5 +53,10 @@ while total_time < stream_seconds:
 
 print("\nEnough games entered for the stream!\n")
 
+for i in range(len(game_names)):
+    name = game_names[i]
+    duration = game_durations[i]
+    print(f"{i + 1}. {name} - {duration} seconds")
+
 display_stream_schedule(total_time, len(game_names))
 choose_giveaway(stream_seconds)
